@@ -132,7 +132,7 @@
   }
 
 
-  @media screen and (max-width: 667px){
+  @media screen and (max-width: 576px){
     main {
         margin-left: 45px;
         margin-right: 45px;

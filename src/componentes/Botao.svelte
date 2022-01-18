@@ -19,7 +19,7 @@
     font-family: 'Roboto', sans-serif;
     background-color: transparent;
   }
-  @media screen and (max-width: 667px){
+  @media screen and (max-width: 576px){
    .botao{
     margin: 8px;
     width: 42px;

@@ -158,7 +158,7 @@
      color: white;
    }
 
-   @media screen and (max-width: 667px){
+   @media screen and (max-width:576px){
      .play1, .play2, .status {
        font-size: 15px;
      }
