@@ -76,7 +76,6 @@
   </div>
   {#if ganhou}
     <p class="fun_placar">{placar()}</p>
-    <h3>{ganhou}</h3>
   {:else}
     <h3 class="status">{status}</h3>
   {/if}
@@ -86,7 +85,7 @@
     {/each}
     <div >
       {#if ganhou}
-        <button class="botaoreiniciar" on:click={resetar}> Reiniciar Jogo </button>
+      {alert(ganhou, resetar()) }
       {/if}
     </div>
   </div>
@@ -111,12 +110,6 @@
     font-family: 'Roboto', sans-serif;
   }
  
-.botaoreiniciar{
-  margin: 3px;
-  margin-top: 15px;
-  
-}
-  
   h3 {
     text-align: center;
     color: white;
@@ -136,14 +129,8 @@
   .fun_placar{
     display: none;
   }
-  button {
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.897);
-    color: white;
-    margin: 2px;
-    font-family: 'Roboto', sans-serif;
-  }
+ 
+  
   .status {
     text-align: center;
     color: white;

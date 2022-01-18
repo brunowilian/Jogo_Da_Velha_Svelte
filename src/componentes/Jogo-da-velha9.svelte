@@ -1,5 +1,4 @@
 <script>
-/* Professor, a gente fez essa de uma forma diferente para testar e aprender diferentes formas de fazer.*/
 
    let play2 = 0;
    let play1 = 0;
@@ -63,7 +62,6 @@
       <div>
         {#if ganhou}
         <p class="fun_placar">{placar()}</p>
-        <h3 class="ganhou">{ganhou}</h3>
       {:else}
         <h3 class="status">{status}</h3>
       {/if}
@@ -91,7 +89,7 @@
 
       <div >
         {#if ganhou}
-        <button class="reiniciar" on:click={resetar}>Reiniciar jogo</button>
+        {alert(ganhou, resetar()) }
       {/if}
       </div>
     </main>
@@ -148,16 +146,7 @@
    button:hover{
     font-family: Arial, Helvetica, sans-serif;
    }
-   .reiniciar{
-     margin-top: 15px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.897);
-   }
-   .ganhou{
-     color: white;
-   }
-
+   
    @media screen and (max-width:576px){
      .play1, .play2, .status {
        font-size: 15px;
