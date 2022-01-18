@@ -106,7 +106,7 @@ main {
 
     text-align: justify;
     font-size: 20px;
-    padding-left: 28px;
+    padding-left: 0px;
     font-family: 'Roboto', sans-serif;
 }
 

@@ -67,7 +67,6 @@ main {
 .conteudo p {
     text-align: justify;
     font-size: 18px;
-    padding-left: 28px;
     font-family: 'Roboto', sans-serif;
 }
 

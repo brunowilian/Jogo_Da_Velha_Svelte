@@ -136,8 +136,8 @@ li a {
 		}
 
 		main{
-			width: 300px;
-    height: 300px;
+		width: 300px;
+    height: 345px;
     margin-left: 25px
 		}
 		.ycasas{
