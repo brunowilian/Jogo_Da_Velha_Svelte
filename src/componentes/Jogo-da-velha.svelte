@@ -148,7 +148,7 @@
     text-align: center;
     color: white;
   }
-  @media screen and (max-width: 375px){
+  @media screen and (max-width: 667px){
      .play1, .play2, .status, .placar {
        font-size: 15px;
        margin-left: 12px;

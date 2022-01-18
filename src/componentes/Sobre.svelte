@@ -110,7 +110,7 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 667px){
     main {
         margin-left: 45px;
         margin-right: 45px;

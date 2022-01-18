@@ -130,7 +130,7 @@ li a {
 		font-family: 'Roboto', sans-serif;
 	}
 
-	@media screen and (max-width: 375px){
+	@media screen and (max-width: 667px){
 		li, button{
 			font-size: 10px;
 		}
