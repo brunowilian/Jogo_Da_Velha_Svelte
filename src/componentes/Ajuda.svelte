@@ -3,7 +3,7 @@
 	
 </script>
 
-<body>
+
 	<main> 
 		<section class="conteudo">
 		<h1>Suporte</h1>
@@ -20,19 +20,12 @@
 			<p>Marque um dos cantos e, dependendo do que seu oponente fizer, marque outro canto, e você estará com a vitória nas mãos. Por exemplo, se você faz o X no canto inferior esquerdo, e ele coloca o O no canto inferior direito, você deve responder com um X no canto superior esquerdo.</p>
 		</section>
 	</main>
-</body>
-<br>
+
 
 <style>
 	/* your styles go here */
-	body{
-   line-height: 1.0;
-    color: white;
-    background: linear-gradient(90deg, rgba(18,33,80,1) 5%, rgba(38,54,147,1) 50%, rgba(21,39,96,1) 95%);
-}
-
 main {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.849);
     padding: 5px 40px;
     margin-top: 20px;
     margin-right: 25%;
@@ -42,6 +35,7 @@ main {
 }
 
 .conteudo {
+    color: white;
     margin: auto;
     width: 100%;
     height: 100%;  

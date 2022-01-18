@@ -1,4 +1,5 @@
 <script>
+
 	import Contatos from './componentes/Contatos.svelte';
 	import Botao from './componentes/Botao.svelte';
 	import Sobre from './componentes/Sobre.svelte';
@@ -81,8 +82,6 @@ ul {
   margin: 0px;
   padding: 0;
   overflow: hidden;
-	background: linear-gradient(90deg, rgba(18,33,80,1) 5%, rgba(38,54,147,1) 50%, rgba(21,39,96,1) 95%);
-
 }
 
 li {
@@ -90,8 +89,9 @@ li {
 }
 
 li a {
-  display: block;
+	background-color: rgba(0, 0, 0, 0.897);
   color: white;
+  display: block;
   text-align: center;
   padding: 1px 18px;
   text-decoration: none;
@@ -99,12 +99,12 @@ li a {
 	border: solid;
 	border-style: groove;
 	border-radius: 5px;
-	background: linear-gradient(90deg, rgba(6,0,96,1) 22%, rgba(26,49,103,1) 43%, rgba(9,12,24,1) 100%);
 }
 
 
 .ycasas{
 	display: none;
+	padding-top: 10px;
 	
 }
 
@@ -113,22 +113,28 @@ li a {
 	text-align: center;
 }
 
-	:global(body) {
-		background: linear-gradient(90deg, rgba(18,33,80,1) 5%, rgba(38,54,147,1) 50%, rgba(21,39,96,1) 95%);
-	}
+
+
 	main {
+		
+		height: 500px;
+		width: 500px;
+		margin-left: 32%;
+		margin-right: 50%;
+		background-color: rgba(0, 0, 0, 0.849);
 		margin-top: 50px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		line-height: 10px;
+		border-radius: 10%;
 	}
 
 	button {
+		background-color: rgba(0, 0, 0, 0.897);
+    color: white;
 		font-size: 0.4cm;
-		background: linear-gradient(90deg, rgba(6,0,96,1) 22%, rgba(26,49,103,1) 43%, rgba(9,12,24,1) 100%);
 		margin: 1px;
-		color: aliceblue;
 		font-family: 'Roboto', sans-serif;
 	 
 	}

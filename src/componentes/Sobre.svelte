@@ -1,9 +1,4 @@
 
-<script>
-
-</script>
-
-<body>
     <main>
     <header class="cabecalho">
         <img class="cabecalho-imagem" src="imagem/ifpe.png" alt="Logo do IFPE">
@@ -27,16 +22,11 @@
             <h3 class="conteudo-principal-subtitulo">2. Sobre o Jogo:</h3>
             <br>
             <p class="conteudo-principal-paragrafo">O jogo da velha é um jogo de regras extremamente simples, que é facilmente aprendido pelos seus jogadores e tem como objetivo fazer uma sequência de três símbolos iguais, seja em linha vertical, horizontal ou diagonal, enquanto tenta prever o movimento do adversário. Além disso, é uma boa oportunidade para estimular o raciocínio lógico, aprender a formar sequência e a ter paciência. </p>
-
         </section>
     </div>    
-    <br>
-    <br>
     </main>
-    <br>
-    <br>
-   
-</body>
+
+
 
 <style>
     p{
@@ -50,16 +40,9 @@
     text-decoration: none;
 }
 
-body {
-    width: 100%;
-    margin: auto;
-    
-   line-height: 1.0;
-   color: white;   
-}
 
 main {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.849);
     padding: 5px 40px;
     margin-top: 20px;
     margin-right: 25%;
@@ -69,7 +52,7 @@ main {
 }
 
 .cabecalho {
-    background: linear-gradient(90deg, rgba(6,0,96,1) 22%, rgba(26,49,103,1) 43%, rgba(9,12,24,1) 100%);
+   color: white;
     border: 0.4px solid;
     text-align:justific;
     display: flex;
@@ -80,7 +63,6 @@ main {
     align-items: center;
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .cabecalho-imagem {
@@ -94,7 +76,7 @@ main {
 }
 
 .conteudo {
-
+   color: white;
     margin: auto;
     width: 100%;
     height: 100%;  

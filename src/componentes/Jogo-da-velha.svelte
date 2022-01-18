@@ -1,6 +1,4 @@
 <script>
-import { blank_object } from "svelte/internal";
-
   import Botao from "./Botao.svelte";
 
   let ganhou = null;
@@ -71,7 +69,7 @@ import { blank_object } from "svelte/internal";
  
 </script>
 
-<main>
+<main class="teste">
   <div class="placar">
     <span class="play1">JØ₲₳ĐØⱤ Ӿ : {play1}</span>
     <span class="play2">JØ₲₳ĐØⱤ Ø : {play2}</span>
@@ -95,6 +93,7 @@ import { blank_object } from "svelte/internal";
 </main>
 
 <style>
+
   .placar{
     margin-bottom: 15px;
   }
@@ -125,6 +124,7 @@ import { blank_object } from "svelte/internal";
   }
 
   .jogodavelha {
+    padding-top: 10px;
     display: flexbox;
     width: 250px;
     text-align: center;
@@ -139,7 +139,7 @@ import { blank_object } from "svelte/internal";
   button {
     color: white;
     text-align: center;
-    background: linear-gradient(90deg, rgba(6,0,96,1) 22%, rgba(26,49,103,1) 43%, rgba(9,12,24,1) 100%);
+    background-color: rgba(0, 0, 0, 0.897);
     color: white;
     margin: 2px;
     font-family: 'Roboto', sans-serif;

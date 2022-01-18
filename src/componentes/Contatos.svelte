@@ -1,6 +1,5 @@
-<html lang="pt-br">
-  <body>
-    <main>
+
+     <main>
       <div>
         <section>
           <h1>Contatos</h1>
@@ -72,10 +71,8 @@
           </div>
         </div>
       </div>
-    </main>
-  </body>
-</html>
-
+    </main>>
+  
 <style>
   .texto{
     color: white;
@@ -99,7 +96,7 @@
     font-family: 'Roboto', sans-serif;
   }
   main {
-    background-color: rgba(0, 0, 0, 0.534);
+    background-color: rgba(0, 0, 0, 0.849);
     padding: 2px 10px;
     margin-top: 20px;
     margin-right: 20%;

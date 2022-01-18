@@ -55,12 +55,11 @@
   }
 
   </script>
-  
+  <main>
   <div class="placar">
       <span class="play1">JØ₲₳ĐØⱤ Ӿ : {play1}</span>
     <span class="play2">JØ₲₳ĐØⱤ Ø : {play2}</span>
   </div>
-    <main>
       <div>
         {#if ganhou}
         <p class="fun_placar">{placar()}</p>
@@ -69,6 +68,8 @@
         <h3 class="status">{status}</h3>
       {/if}
       </div>
+
+      <section class="botoes">
       <div class="mudacorl">
         <button id="0" class="quadrado" on:click={handleClick}>{botoes[0]} </button> 
         <button id="1" class="quadrado" on:click={handleClick}>{botoes[1]} </button>
@@ -86,13 +87,20 @@
         <button id="7" class="quadrado" on:click={handleClick}>{botoes[7]} </button>
         <button id="8" class="quadrado" on:click={handleClick}>{botoes[8]} </button>
       </div>
+    </section>
+
       <div >
         {#if ganhou}
         <button class="reiniciar" on:click={resetar}>Reiniciar jogo</button>
       {/if}
       </div>
     </main>
+
   <style>
+    .botoes{
+      width: 170px;
+      margin-left: 65px;
+    }
    .placar{
     margin-bottom: 15px;
     display: flex;
@@ -112,12 +120,12 @@
     font-family: 'Roboto', sans-serif;
   }
     main{
-      margin-left: 65px;
+      padding-top: 15px;
       display: flexbox;
-      width: 180px;
       text-align: center;
     }
   .quadrado{
+    
     color: white;
     border-radius: 0.3cm;
       width: 50px;
@@ -132,6 +140,7 @@
   }
   .fun_placar{
     display: none;
+    
   }
   .status{
      color: white;
@@ -143,7 +152,7 @@
      margin-top: 15px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: white;
-    background: linear-gradient(90deg, rgba(6,0,96,1) 22%, rgba(26,49,103,1) 43%, rgba(9,12,24,1) 100%);
+    background-color: rgba(0, 0, 0, 0.897);
    }
    .ganhou{
      color: white;
