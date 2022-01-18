@@ -54,7 +54,6 @@ main {
 .cabecalho {
    color: white;
     border: 0.4px solid;
-    text-align:justific;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -109,6 +108,17 @@ main {
     font-size: 20px;
     padding-left: 28px;
     font-family: 'Roboto', sans-serif;
+}
 
+@media screen and (max-width: 480px){
+    main {
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .cabecalho{
+        flex-direction: column;
+    }
 }
 </style>

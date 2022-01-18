@@ -70,4 +70,13 @@ main {
     padding-left: 28px;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 480px){
+    main {
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 </style>

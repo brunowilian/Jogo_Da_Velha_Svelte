@@ -83,11 +83,9 @@ ul {
   padding: 0;
   overflow: hidden;
 }
-
 li {
   float: left;
 }
-
 li a {
 	background-color: rgba(0, 0, 0, 0.897);
   color: white;
@@ -100,21 +98,15 @@ li a {
 	border-style: groove;
 	border-radius: 5px;
 }
-
-
 .ycasas{
 	display: none;
 	padding-top: 10px;
 	
 }
-
 .acasas{
 	display: none;
 	text-align: center;
 }
-
-
-
 	main {
 		
 		height: 500px;
@@ -136,6 +128,19 @@ li a {
 		font-size: 0.4cm;
 		margin: 1px;
 		font-family: 'Roboto', sans-serif;
-	 
+	}
+
+	@media screen and (max-width: 480px){
+		li, button{
+			font-size: 10px;
+		}
+
+		main{
+		height: 200px;
+		width:  200px;
+		margin-left: 100px;
+		}
+		
+
 	}
 </style>

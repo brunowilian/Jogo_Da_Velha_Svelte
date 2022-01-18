@@ -3,7 +3,7 @@
       <div>
         <section>
           <h1>Contatos</h1>
-          <p class="texto">Caso tenha dúvidas ou sugestões de melhorias sobre o jogo, pode escolher  qualquer um dos desenvolvedores abaixo, que responderemos o mais breve possível. Será um prazer entrar em contato com você!</p>
+          <p class="texto" >Caso tenha dúvidas ou sugestões de melhorias sobre o jogo, pode escolher  qualquer um dos desenvolvedores abaixo, que responderemos o mais breve possível. Será um prazer entrar em contato com você!</p>
           <br>
         </section>
          <!-- Inicio da caixa de perfil-->
@@ -130,4 +130,37 @@
     margin: 0px;
     margin-left: 10px;
   }
+
+
+  @media screen and (max-width: 480px){
+    main {
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .coluna{
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 25px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+    .texto{
+      margin-left: 0px
+    }
+    .perfil{
+      margin-left: 15px;
+      width: 120px;
+      height: 120px;
+    }
+    .bloco{
+      width: 290px;
+      margin-left: 0px;
+      margin-right: 22px;
+      margin-bottom: 10px;
+    }
+}
 </style>
