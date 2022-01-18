@@ -157,5 +157,14 @@
    .ganhou{
      color: white;
    }
+
+   @media screen and (max-width: 375px){
+     .play1, .play2, .status {
+       font-size: 15px;
+     }
+     .botoes{
+      margin-left: 32px
+     }
+   }
   </style>
 

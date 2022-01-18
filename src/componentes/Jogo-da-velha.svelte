@@ -148,4 +148,13 @@
     text-align: center;
     color: white;
   }
+  @media screen and (max-width: 375px){
+     .play1, .play2, .status, .placar {
+       font-size: 15px;
+       margin-left: 12px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+     }
+     
+   }
 </style>

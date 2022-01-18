@@ -11,7 +11,7 @@
     border-radius: 0.3cm;
     width: 52px;
     height: 50px;
-    margin: 5.0px;
+    margin: 5px;
     font-size: 20px;
     text-align: center;
     float: left;
@@ -19,4 +19,12 @@
     font-family: 'Roboto', sans-serif;
     background-color: transparent;
   }
+  @media screen and (max-width: 375px){
+   .botao{
+    margin: 8px;
+    width: 42px;
+    height: 40px;
+   }
+   }
+
 </style>

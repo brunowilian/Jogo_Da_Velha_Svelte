@@ -130,17 +130,23 @@ li a {
 		font-family: 'Roboto', sans-serif;
 	}
 
-	@media screen and (max-width: 480px){
+	@media screen and (max-width: 375px){
 		li, button{
 			font-size: 10px;
 		}
 
 		main{
-		height: 200px;
-		width:  200px;
-		margin-left: 100px;
+			width: 300px;
+    height: 300px;
+    margin-left: 25px
 		}
-		
+		.ycasas{
+			font-size: 10px;
+		}
+		.menuu{
+			margin-left: 5px
+		}
+
 
 	}
 </style>
