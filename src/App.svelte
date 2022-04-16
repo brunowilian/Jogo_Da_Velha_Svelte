@@ -1,11 +1,10 @@
 <script>
 
-	import Contatos from './componentes/Contatos.svelte';
-	import Botao from './componentes/Botao.svelte';
-	import Sobre from './componentes/Sobre.svelte';
-	import Ajuda from './componentes/Ajuda.svelte';
-	import JogoDaVelha9 from "./componentes/Jogo-da-velha9.svelte";
-	import JogoDaVelha from "./componentes/Jogo-da-velha.svelte";
+	import Contatos from './pages/Contatos.svelte';
+	import Sobre from './pages/Sobre.svelte';
+	import Ajuda from './pages/Ajuda.svelte';
+	import JogoDaVelha9 from "./pages/Jogo-da-velha9.svelte";
+	import JogoDaVelha from "./pages/Jogo-da-velha.svelte";
 
 	let menu = 0;
 
